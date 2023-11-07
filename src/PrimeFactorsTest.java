@@ -1,5 +1,4 @@
 import static org.junit.Assert.assertEquals;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,4 +12,12 @@ public class PrimeFactorsTest {
         List<Integer> actual = primeFactors.resolve(1);
         assertEquals(expected, actual);
     }    
+    @Test
+    public void testTwo() {
+        PrimeFactors primeFactors = new PrimeFactors();
+        List<Integer> expected = new ArrayList<Integer>();
+        expected.add(2);
+        List<Integer> actual = primeFactors.resolve(2);
+        assertEquals(expected, actual);
+    }
 }
