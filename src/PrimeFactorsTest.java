@@ -21,6 +21,10 @@ public class PrimeFactorsTest {
     public void testThree() {
         assertEquals(listOf(3), factorsOf(3));
     }
+    @Test
+    public void testFour() {
+        assertEquals(listOf(2, 2), factorsOf(4));
+    }
     private static List<Integer> listOf(int... values) {
         List<Integer> result = new ArrayList<Integer>();
         for (int value : values) {
