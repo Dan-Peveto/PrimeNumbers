@@ -33,6 +33,10 @@ public class PrimeFactorsTest {
     public void testSix() {
         assertEquals(listOf(2, 2, 2), factorsOf(8));
     }
+    @Test
+    public void testSever() {
+        assertEquals(listOf(3, 3), factorsOf(9));
+    }
     private static List<Integer> listOf(int... values) {
         List<Integer> result = new ArrayList<Integer>();
         for (int value : values) {
