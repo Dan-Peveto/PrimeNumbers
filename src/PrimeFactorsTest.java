@@ -34,7 +34,7 @@ public class PrimeFactorsTest {
         assertEquals(listOf(2, 2, 2), factorsOf(8));
     }
     @Test
-    public void testSever() {
+    public void testSeven() {
         assertEquals(listOf(3, 3), factorsOf(9));
     }
     private static List<Integer> listOf(int... values) {
